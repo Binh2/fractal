@@ -1,0 +1,1 @@
+cc -o b.out test.c Complex.c -lm

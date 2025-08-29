@@ -1,0 +1,1 @@
+emcc -o a.html main.c Complex.c -Wall -std=c99 -D_DEFAULT_SOURCE -Wno-missing-braces -Wunused-result -I/usr/local/include -L/usr/local/lib -s ASYNCIFY -lraylib -DFLATFORM_WEB --shell-file /home/hgqbinh/raylib/src/shell.html -lglfw3 
